@@ -38,8 +38,8 @@ function Card({ data }) {
     >
       <img src={data.image} alt="" />
       <h2>{data.name}</h2>
-      <p>{data.position}</p>
-      <p>{data.education}</p>
+      <p className={Styles.position}>{data.position}</p>
+      <p className={Styles.education}>{data.education}</p>
       <div className={Styles.btnn}>
         <button className={Styles.infoBtn} onMouseEnter={() => setShowInfo(true)}><BsFillInfoSquareFill/></button>
         <button className={Styles.infoBtn} variant="outline-success" onClick={(e) => openLinkedIn(e, data)}><BsLinkedin /></button>

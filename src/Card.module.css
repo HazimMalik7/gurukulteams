@@ -8,6 +8,7 @@
   height: 400px;
   padding: 0 2rem 2rem 2rem;
   border-radius: 10px;
+  white-space: pre-line;
 }
 
 .card img {
@@ -69,4 +70,13 @@
 .infoBtn {
   border: none;
   background-color: transparent;
+}
+
+.position {
+  color: seagreen;
+  font-size: 17px;
+}
+
+.education {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
